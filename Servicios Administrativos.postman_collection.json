@@ -1,0 +1,1267 @@
+{
+	"info": {
+		"_postman_id": "f66d3b4e-ed3c-4d06-9587-9c4c0b5b25f2",
+		"name": "Servicios Administrativos",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27611975"
+	},
+	"item": [
+		{
+			"name": "Get Candidatos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/copasst/candidatos/120",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"copasst",
+						"candidatos",
+						"120"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Votaciones Activas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/vot_act?estado=1&email=sebastian.valbuena@escuelaing.edu.co",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"vot_act"
+					],
+					"query": [
+						{
+							"key": "estado",
+							"value": "1"
+						},
+						{
+							"key": "email",
+							"value": "sebastian.valbuena@escuelaing.edu.co"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Persona Activa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/personas?email=sebastian.valbuena@escuelaing.edu.co",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"personas"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "sebastian.valbuena@escuelaing.edu.co"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Generos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/generos",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"generos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Estado Civil",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/estadoCivil",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"estadoCivil"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Tipo Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/tipoEmpleado",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"tipoEmpleado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Paises",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/paises",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"paises"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Departamentos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/departamentos",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"departamentos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Tipo Documento",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/tipoDocumento",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"tipoDocumento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ocupacion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/ocupacion",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"ocupacion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Nivel Estudios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/nivelEstudios",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nivelEstudios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Idiomas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/idiomas",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"idiomas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Habilidad Idioma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/idiomaHabilidad",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"idiomaHabilidad"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Calificacion Idioma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/calificacionIdioma",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"calificacionIdioma"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Duracion Experiencia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/duracionExperiencia",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"duracionExperiencia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Ciudades",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/ciudades",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"ciudades"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Areas Experiencia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/areaExperiencia",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"areaExperiencia"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Informacion Empleado",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/informacionEmpleado?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"informacionEmpleado"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Cargos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/cargos",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"cargos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Redes Sociales Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/redesSociales?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"redesSociales"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Titulos Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/titulos?documento=19417101",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"titulos"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "19417101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Info Actualiza Datos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/datosBasicos?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"datosBasicos"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Detalles Cargo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/detallesCargo?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"detallesCargo"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Experiencia",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/experiencia?documento=1014216982",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"experiencia"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1014216982"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Idioma",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/idiomas?documento=1014216982",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"idiomas"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1014216982"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Familiares",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/familiares?documento=1014216982",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"familiares"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1014216982"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Areas Interes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/areasInteres?documento=19417101",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"areasInteres"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "19417101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Parentesco",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/parentesco",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"parentesco"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Experiencia Nueva Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/experienciaNueva?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"experienciaNueva"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Publicacion Nueva",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/publicacionNueva?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"publicacionNueva"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Familiar Nuevo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/familiarNuevo?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"familiarNuevo"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Idioma Nuevo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoIdioma?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoIdioma"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Datos Empleado Nuevo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/datosEmpleado?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"datosEmpleado"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Titulos Nuevos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoPerfil/titulos?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoPerfil",
+						"titulos"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Nuevo Titulo Empleado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "sebastian.valbuena",
+							"type": "text"
+						},
+						{
+							"key": "documento",
+							"value": "1021665645",
+							"type": "text"
+						},
+						{
+							"key": "cod_estudio",
+							"value": "231",
+							"type": "text"
+						},
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/desarrollador2/Downloads/politicas-espacio.pdf"
+						},
+						{
+							"key": "cod_ins",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "ano_est",
+							"value": "2024-03-08",
+							"type": "text"
+						},
+						{
+							"key": "fec_gra",
+							"value": "2024-03-08",
+							"type": "text"
+						},
+						{
+							"key": "nro_tar",
+							"value": "33232",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoPerfil/nuevoTitulo",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoPerfil",
+						"nuevoTitulo"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645",
+							"disabled": true
+						},
+						{
+							"key": "titulo_pregrado_file",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "titulo_pregrado",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Nuevo Titulo Empleado Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nombre",
+							"value": "sebastian.valbuena",
+							"type": "text"
+						},
+						{
+							"key": "id_titulo",
+							"value": "39",
+							"type": "text"
+						},
+						{
+							"key": "cod_estudio",
+							"value": "2312",
+							"type": "text"
+						},
+						{
+							"key": "archivo",
+							"type": "file",
+							"src": "/C:/Users/desarrollador2/Downloads/Documentación Pruebas (1).pdf",
+							"disabled": true
+						},
+						{
+							"key": "cod_ins",
+							"value": "32",
+							"type": "text"
+						},
+						{
+							"key": "ano_est",
+							"value": "2024-03-08",
+							"type": "text"
+						},
+						{
+							"key": "fec_gra",
+							"value": "2024-03-08",
+							"type": "text"
+						},
+						{
+							"key": "nro_tar",
+							"value": "33232",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoPerfil/nuevoTitulo",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoPerfil",
+						"nuevoTitulo"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645",
+							"disabled": true
+						},
+						{
+							"key": "titulo_pregrado_file",
+							"value": null,
+							"disabled": true
+						},
+						{
+							"key": "titulo_pregrado",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Titulo Document",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoPerfil/titulo?name_title=013163a1-4ac2-4050-8857-c652cd9259b2.pdf",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoPerfil",
+						"titulo"
+					],
+					"query": [
+						{
+							"key": "name_title",
+							"value": "013163a1-4ac2-4050-8857-c652cd9259b2.pdf"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Perfil Web",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/nuevoPerfil/perfilWeb?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"nuevoPerfil",
+						"perfilWeb"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Nueva Publicacion Empleado",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/publicacionNueva?id_publicacion=2",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"publicacionNueva"
+					],
+					"query": [
+						{
+							"key": "id_publicacion",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Post Areas Interes",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    121\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "10.10.1.220:8030/areasInteres?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"areasInteres"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Areas Interes Nuevas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/areasInteres?documento=1021665645",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"areasInteres"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "1021665645"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Perfil Web Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/perfil?documento=19417101",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"perfil"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "19417101"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Publicaciones Empleado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/empleado/publicaciones?documento=79151838",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"empleado",
+						"publicaciones"
+					],
+					"query": [
+						{
+							"key": "documento",
+							"value": "79151838"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Estudios",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/estudios",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"estudios"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get All Instituciones",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "10.10.1.220:8030/instituciones",
+					"host": [
+						"10",
+						"10",
+						"1",
+						"220"
+					],
+					"port": "8030",
+					"path": [
+						"instituciones"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
